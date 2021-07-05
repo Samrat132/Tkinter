@@ -6,9 +6,5 @@ cat = Tk()
 Button = Button(cat, text = "Click Me")
 Button.pack()
 
-#State disabled button
-Button1 = Button(cat, text = "Click", state = DISABLED)
-Button1.pack()
-
-
 mainloop()
+
